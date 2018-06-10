@@ -1,1 +1,16 @@
-# algorithm-ninja
+## Basic
+#### [Recursion](1.recursion/basic-recursion.js)
+
+## [Arrays]()
+## Lists
+## Stacks
+## Quenes
+## Linked Lists
+## Dictionaries
+## [Hashing](8.hashing/basic.js)
+## Sets
+## Binary Trees and Binary Search Trees
+## Graphs and Fraph Algorithms
+## Sorting Algorithms
+## Searching Algorithms
+## Advanced Algorithms
