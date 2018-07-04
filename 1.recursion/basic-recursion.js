@@ -7,10 +7,3 @@ function factorial(number) {
 }
 
 console.log(factorial(5))
-
-var nums = []
-for(var i=0;i<10;++i){
-  nums[i] = i+1;
-}
-var samenums = nums;
-console.log(nums)

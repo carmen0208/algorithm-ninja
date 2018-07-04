@@ -1,7 +1,7 @@
 ## Basic
 #### [Recursion](1.recursion/basic-recursion.js)
 
-## [Arrays]()
+## [Arrays](2.array/home.md)
 ## Lists
 ## Stacks
 ## Quenes
