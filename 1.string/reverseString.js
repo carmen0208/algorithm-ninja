@@ -16,8 +16,9 @@
 
 
 //Way 3:
-function reverseString(str) {
-    return str.split('').reduce((rev, index) => index+rev, '')
+function reverseString( str ) {
+  // reducer()
+  return str.split('').reduce((total, current) => current + total, '')
 }
 
-module.exports = reverseString;
+module.exports = reverseString
