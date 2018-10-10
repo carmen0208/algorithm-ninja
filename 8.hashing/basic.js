@@ -25,13 +25,34 @@ function showDistro () {
 
 function put (data) {
   var pos = this.simpleHash(data)
-  this.table[pos] = data
+  this.table[pos] !== undefined ? this.table[pos].push(data): this.table[pos] = new Array(data)
 }
 
-var someNames = ['David', 'Jennifer', 'Donnie', 'Raymond', 'Cynthia', 'Mike', 'Clayton', 'Danny', 'Jonathan', 'Carmen']
+var someNames = ['David', 'Jennifer', 'Donnie', 'Raymond', 'Cynthia', 'Mike', 'Clayton', 'Danny', 'Jonathan', 'Carmen', 'Cerman']
 
 var hTable = new HashTable()
 for (var i = 0; i < someNames.length; i++) {
   hTable.put(someNames[i])
 }
 hTable.showDistro()
+
+// Hash value: David -> 488
+// Hash value: Jennifer -> 817
+// Hash value: Donnie -> 605
+// Hash value: Raymond -> 730
+// Hash value: Cynthia -> 720
+// Hash value: Mike -> 390
+// Hash value: Clayton -> 730
+// Hash value: Danny -> 506
+// Hash value: Jonathan -> 819
+// Hash value: Carmen -> 598
+// Hash value: Cerman -> 598
+// 35 : Cynthia
+// 45 : Raymond,Clayton
+// 50 : Carmen,Cerman
+// 57 : Donnie
+// 77 : David
+// 95 : Danny
+// 116 : Mike
+// 132 : Jennifer
+// 134 : Jonathan
