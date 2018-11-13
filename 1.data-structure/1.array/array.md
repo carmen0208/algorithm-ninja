@@ -41,6 +41,10 @@
     ArrayList<ArrayList> array
     ```
 
+## practice:
+
+* [Array Basic](array.js)
+* [Array Shallow Copy and Deep Copy](arraycopy.js)
 
 ## Reference resource：
 * [极客时间：算法与数据结构之美](https://time.geekbang.org/column/126)

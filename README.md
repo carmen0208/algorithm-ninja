@@ -4,7 +4,7 @@
 ## [Complexity](0.basic/01.complexity.md)
 
 ## 10 个数据结构：
-  * [数组](1.data-structure/array.md)
+  * [数组](1.data-structure/1.array/array.md)
   * 链表
   * 栈
   * 队列
