@@ -1,7 +1,7 @@
 ## Array
 * Array is a linear list
 * Required a continues memory address to store data. 它用一组连续的内存空间来存储数据
-  ![arrayinmemory](../asserts/images/arrayinmemory.jpg)
+  ![arrayinmemory](../../asserts/images/arrayinmemory.jpg)
 
    ```c++
    a[i]_address = base_address + i * data_type_size
@@ -21,12 +21,12 @@
   The answer is **Yes**
 * **For insert**, if the array doesn't care about the order, just put the orignal value to the end. like the following grap, when X is insert, x replace c, and move c to the end
 
-![inserarray](../asserts/images/insertarray.jpg)
+![inserarray](../../asserts/images/insertarray.jpg)
 
 * **For delete**, just make the element to be delete, but don't delete it until run out of slot. 
   * Why it benefit? because if we delete everytime, we need to deal with(move) the other element everytime as well, but if we delete one time, we only need to deal with(move) other element once. **Same idea in GC in Java**
 
- ![deletearraytogether](../asserts/images/deletearraytogether.jpg)
+ ![deletearraytogether](../../asserts/images/deletearraytogether.jpg)
 
 ## Container basd Array: ex ArrayList in java
 * Advantage:

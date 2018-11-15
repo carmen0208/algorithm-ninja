@@ -5,7 +5,7 @@
 
 ## 10 个数据结构：
   * [数组](1.data-structure/1.array/array.md)
-  * 链表
+  * [链表](1.data-structure/2.list/list.md)
   * 栈
   * 队列
   * 散列表
