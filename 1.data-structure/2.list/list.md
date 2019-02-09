@@ -46,3 +46,11 @@ Solution: we have a single linked link, the tail one is the most earliest data, 
 
 
 Complicity: O(n)(因为不管缓存有没有满，我们都需要遍历一遍链表，所以这种基于链表的实现思路，缓存访问的时间复杂度为 O(n))。
+
+
+## practice:
+
+* [Linked List](linkedlist.js)
+
+## Reference resource：
+* [极客时间：算法与数据结构之美](https://time.geekbang.org/column/126)
